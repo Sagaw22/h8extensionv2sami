@@ -34,7 +34,9 @@ class AuthenticatedSessionController extends Controller
         
         $request->user()->notify(new SendTwoFactorCode());
 
-        return redirect()->intended(RouteServiceProvider::HOME);
+        return redirect()->route('verify.index');
+
+        //return redirect()->intended(RouteServiceProvider::HOME);
 
         
     }
