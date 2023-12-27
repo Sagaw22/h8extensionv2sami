@@ -26,9 +26,15 @@ return [
     ],
 
     'ses' => [
-        'key' => env('AWS_ACCESS_KEY_ID'),
-        'secret' => env('AWS_SECRET_ACCESS_KEY'),
-        'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
+        'key' => 'AKIAVA5VR24TL4AFSBDP',
+        'secret' => '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',
+        'region' => 'eu-central-1',
     ],
 
+    /*'ses' => [
+        'key' => "AKIAVA5VR24TPHCNDPAA",
+        'secret' => "BPmtpDTL7zGaIpL+3z/JEKrmvxXfbW/FHavI2kp5zXqL",
+        'region' => "eu-central-1"
+    ],
+    */
 ];
